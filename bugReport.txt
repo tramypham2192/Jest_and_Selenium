@@ -1,0 +1,46 @@
+Bug Report
+
+DESCRIPTION
+
+In file server.js:
+
+In the POST method for “/api/duel”:
+
+When checking the condition compHealth < playerHealth:
+
+Even when compHealth < playerHealth, the code shows playerRecord.lossess += 1
+
+The code should be playerRecord.wins += 1
+
+———————————————————————
+
+Steps to reproduce
+
+1. Navigate to http://localhost:8000
+2. Click on Display All Bots
+3. Click on Draw
+4. Choose 2 Bots
+5. Click Duel
+6. Play until the player win against the computer but statistics shows player has 0 win against the computer
+
+———————————————————————
+
+Expected result
+
+Statistics shows number of times that player win against the computer
+
+———————————————————————
+
+Actual Result
+
+Statistics shows player has 0 win against the computer
+
+———————————————————————
+
+Environment
+
+Chrome 
+MacOS
+
+
+
