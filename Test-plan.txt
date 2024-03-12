@@ -1,0 +1,29 @@
+TEST PLAN
+
+OVERVIEW:
+Test the functionality of the app
+
+———————————————————————
+
+TEST CRITERIA:
+- Function show all bots works properly
+- Function letting player choose only two bots work properly
+- Computer can only choose two bots, no more and no lossess
+- The function to shuffle bots work properly
+- When duel, the health of bots are calculated properly
+- The function to display whether computer or player wins works properly
+
+———————————————————————
+
+ENTRY CRITERIA:
+The server runs properly
+All buttons work properly
+File botsData.js is populated properly
+
+———————————————————————
+
+EXIT CRITERIA:
+All functions listed in Test Criteria section work properly
+
+
+
