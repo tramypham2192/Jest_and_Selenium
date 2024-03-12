@@ -1,0 +1,37 @@
+TEST CASE 1
+
+DESCRIPTION
+
+When click on “See All Bots” button, will all the bots be displayed?
+
+———————————————————————
+
+STEPS
+
+1. Start the server
+2. Click on button “See All Bots”
+
+———————————————————————
+
+EXPECTED RESULT
+
+All the bots listed in file botsData.js are displayed
+
+
+——————————————————————————————————————————————
+
+TEST CASE 2
+
+DESCRIPTION
+
+Test if player can pick more than 2 bots
+
+STEPS
+
+1. Start the server
+2. Click on button “Draw”
+3. Click on button “Add to Duo” three times
+
+EXPECTED RESULT
+
+There should be an alert displaying and tell the player “You can only choose two bots”
